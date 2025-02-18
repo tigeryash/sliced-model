@@ -1,4 +1,98 @@
-# React + TypeScript + Vite
+# R3F + TypeScript + Vite
+
+Collecting workspace informationHere's a comprehensive README.md for your R3F TypeScript starter template:
+
+```markdown
+# R3F TypeScript Starter Template
+
+A minimal but feature-complete starter template for React Three Fiber projects using TypeScript and Vite.
+
+## Features
+
+- 🚀 [Vite](https://vitejs.dev/) for fast development and building
+- 📦 [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) and [Drei](https://github.com/pmndrs/drei) preconfigured
+- 🎯 TypeScript support with strict mode enabled
+- 🎮 Debug UI with [Leva](https://github.com/pmndrs/leva)
+- 📊 Performance monitoring with [r3f-perf](https://github.com/utsuboco/r3f-perf)
+- 🎨 GLSL shader support via [vite-plugin-glsl](https://github.com/UstymUkhman/vite-plugin-glsl)
+- 🖼️ Post-processing effects support
+- 🔍 ESLint configured for React and TypeScript
+- 📱 Responsive canvas setup
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/r3f-starter-ts.git
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## Project Structure
+
+```
+src/
+├── Experience.tsx    # Main scene component
+├── main.tsx         # Entry point
+├── index.css        # Global styles
+└── types/
+    └── global.d.ts  # Global type declarations
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Environment Support
+
+The template includes type declarations for various asset formats:
+- 3D Models: `.glb`, `.gltf`, `.fbx`, `.obj`, `.mtl`
+- Textures: `.jpg`, `.jpeg`, `.png`, `.webp`, `.exr`, `.basis`, `.ktx2`
+- Shaders: `.glsl`, `.vert`, `.frag`
+- HDR: `.hdr`
+- Audio: `.mp3`, `.wav`, `.ogg`
+
+## Performance Optimization
+- Performance monitoring tools included
+
+## Contributing
+
+Feel free to submit issues and enhancement requests.
+
+## License
+
+MIT
+
+```
+
+This README provides a good overview of your template's features while keeping it concise and informative. The structure highlights the key aspects that developers would want to know when deciding whether to use your template.
+
+You can customize the repository URL, license, and other details as needed. You might also want to add sections for:
+
+- Deployment instructions
+- Advanced configuration options
+- Common troubleshooting
+- Examples/Screenshots
+
+depending on how you plan to use and share this template.
+This README provides a good overview of your template's features while keeping it concise and informative. The structure highlights the key aspects that developers would want to know when deciding whether to use your template.
+
+You can customize the repository URL, license, and other details as needed. You might also want to add sections for:
+
+- Deployment instructions
+- Advanced configuration options
+- Common troubleshooting
+- Examples/Screenshots
+
+depending on how you plan to use and share this template.
+```
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
