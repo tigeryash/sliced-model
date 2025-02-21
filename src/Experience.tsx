@@ -1,7 +1,6 @@
 import { Environment, OrbitControls } from "@react-three/drei";
 import { Perf } from "r3f-perf";
 import bg from "./static/aerodynamics_workshop.hdr";
-import * as THREE from "three";
 
 function Experience() {
   return (
