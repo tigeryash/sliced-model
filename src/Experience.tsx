@@ -1,6 +1,7 @@
 import { Environment, OrbitControls } from "@react-three/drei";
 import { Perf } from "r3f-perf";
 import bg from "./static/aerodynamics_workshop.hdr";
+import Gears from "./Gears";
 
 function Experience() {
   return (
@@ -13,15 +14,8 @@ function Experience() {
         backgroundIntensity={0.4}
         backgroundBlurriness={0.5}
       />
-      <mesh position={[0, -1, 0]}>
-        <icosahedronGeometry args={[2.5, 5]} />
-        <meshStandardMaterial
-          metalness={0.5}
-          roughness={0.25}
-          envMapIntensity={0.5}
-          color={"#858080"}
-        />
-      </mesh>
+
+      <Gears />
 
       <mesh
         position={[-4, -3, -4]}
@@ -38,7 +32,7 @@ function Experience() {
         color={"#ffffff"}
         castShadow
         shadow-mapSize={[1024, 1024]}
-        shadow-camera-far={15}
+        shadow-camera-far={30}
         shadow-camera-left={-8}
         shadow-camera-right={8}
         shadow-camera-top={8}
